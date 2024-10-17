@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Todo List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="categories">
+      <h3>Categories</h3>
+      <input type="text" placeholder="New Category">
+      <button class="add-category">Add</button>
+      <h4>Category List</h4>
+      <ul class="category-list">
+        <li>Clothing <button class="delete-btn">Delete</button></li>
+        <li>Family <button class="delete-btn">Delete</button></li>
+      </ul>
+    </div>
+    
+    <div class="task-section">
+      <h1>Advanced Todo List</h1>
+      <div class="task-input">
+        <input type="text" placeholder="New Task">
+        <input type="date">
+        <h4>Categories:</h4>
+        <div class="category-checkboxes">
+          <label><input type="checkbox"> Clothing</label>
+          <label><input type="checkbox"> Family</label>
+        </div>
+        <button class="add-task">Add Task</button>
+      </div>
+      <h2>Tasks List</h2>
+      <!-- Task List will go here -->
+    </div>
+    
+    <div class="analytics">
+      <h3>Analytics</h3>
+      <!-- Completion Rate Chart will go here -->
+      <p>Clothing: 0.00%</p>
+      <p>Family: 0.00%</p>
+    </div>
+  </div>
+</body>
+</html>
